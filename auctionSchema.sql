@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS greatbay_db;
+CREATE DATABASE greatebay_db;
+
+USE greatebay_db;
+
+CREATE TABLE items(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    category VARCHAR(100) NOT NULL,
+    bid INT NOT NULL
+
+)
+
+SELECT * FROM items
